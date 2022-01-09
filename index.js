@@ -3,14 +3,6 @@ const maxGuesses = 5;
 let currentLetter = 0;
 let currentRow = 0;
 
-function getCurrentRow() {
-    return 0;
-}
-
-function getCurrentLetter() {
-    return 0;
-}
-
 function createRowBody(id) {
     const div = document.createElement("div");
     div.id = `letter-${id}`;
